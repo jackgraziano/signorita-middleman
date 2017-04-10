@@ -1,0 +1,61 @@
+@font-face{
+  font-family: 'Gabriola';
+  src: url('Gabriola.ttf');
+}
+
+.logo-signorita{
+  margin: 0;
+  display: inline-block;
+  color: rgba(255,255,255,0.7);
+  opacity: 1;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.signorita{
+  font-family: 'Gabriola';
+  font-weight: lighter;
+  -moz-font-feature-settings: "ss07";
+    -webkit-font-feature-settings: "ss07";
+    font-feature-settings: "ss07";
+    margin: 0;
+    text-align: right;
+}
+
+.moda-festa{
+  font-family: 'Gabriola';
+  font-weight: lighter;
+  margin: 0;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+@media all and (min-width: 960px) {
+  .signorita{
+    font-size: 170px;
+  }
+  .moda-festa{
+    font-size: 45px;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+  .signorita{
+    font-size: 18vw;
+  }
+  .moda-festa{
+    font-size: 5vh;
+  }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+  .signorita{
+    font-size: 26vw;
+  }
+  .moda-festa{
+    font-size: 5vh;
+  }
+}

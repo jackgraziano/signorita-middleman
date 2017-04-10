@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('components/banner.css');
+@import url('components/logo.css');
+@import url('components/features.css');
+@import url('components/modal.css');
+
+.instagram{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: rgba(230,230,230,1)
+}
+
+.instagram h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: rgba(80,80,80,0.9);
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.footer{
+  background-color: rgba(80,80,80,1);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h3{
+  font-family: 'Raleway';
+  font-weight: 300;
+  color: rgba(255,255,255,0.8);
+
+}
+
+.footer p{
+  color: rgba(255,255,255,0.8);
+  font-family: 'Raleway';
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+#proximo{
+  font-size: 14px;
+}
+
+.shadowed {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  cursor: pointer;
+  cursor: hand;
+}
